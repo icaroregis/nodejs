@@ -8,5 +8,5 @@ const imc = peso / (altura * altura);
 console.log(
   `${nome} tem ${idade} anos e seu índice de massa corporal é de ${imc.toFixed(
     2,
-  )}`,
+  )}. Possui plano ? ${temPLano}`,
 );
