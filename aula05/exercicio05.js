@@ -16,7 +16,13 @@ function converteParaUrl(string) {
 }
 console.log(converteParaUrl('google'));
 
-//questão 4
+//questao04
+function addExc(texto) {
+  return `${texto} !`;
+}
+console.log(addExc('teste'));
+
+//questão05
 function idadeDoCachorro(anos, nome_do_cachorro) {
   return `${nome_do_cachorro} tem ${anos} anos, isso equivale a ${
     anos * 7
@@ -24,13 +30,13 @@ function idadeDoCachorro(anos, nome_do_cachorro) {
 }
 console.log(idadeDoCachorro(7, 'Lessy'));
 
-//questao 5
+//questao06
 function valorDaHora(salario) {
   return `O salário R$ ${salario} é equivalente à ${salario / 160} horas.`;
 }
 console.log(valorDaHora(3500));
 
-//questao 6
+//questao07
 function imc(altura, peso) {
   const imc = peso / (altura * altura);
   return `Seu imc equivale a: ${imc}`;
