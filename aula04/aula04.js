@@ -4,7 +4,7 @@ console.log('olá mundo!!');
 //não respeita escopo de bloco, é global.
 var teste = 'teste';
 
-//escopo limitado local dentro de um bloco de códigos.
+//escopo limitado local dentro de um bloco de códigos pelas chaves.
 let nome = 'Ícaro Régis';
 console.log(nome);
 
