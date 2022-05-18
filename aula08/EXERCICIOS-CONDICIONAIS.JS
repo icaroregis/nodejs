@@ -67,10 +67,12 @@ console.log(totalDeMacas(80));
 
 function pesoIdeal(altura, sexo) {
   if (sexo === 1) {
-    return `Você é do sexo Feminino e seu peso ideal é ${62.1 * altura - 44.7}`;
+    return `Você é do sexo Feminino e seu peso ideal é ${
+      62.1 * altura - 44.7
+    }Kg`;
   }
 
-  return `Você é do sexo Masculino e seu peso ideal é ${72.7 * altura - 58} kg`;
+  return `Você é do sexo Masculino e seu peso ideal é ${72.7 * altura - 58}kg`;
 }
 
 console.log(pesoIdeal(1.5, 1));
